@@ -29,9 +29,9 @@ class ViewDoubtsAdapter(
 
         init {
             userName = view.findViewById(R.id.tv_username)
-            time = view.findViewById(R.id.user_doubt_timestamp)
+            time = view.findViewById(R.id.author_doubt_timestamp)
             heading = view.findViewById(R.id.user_doubt_heading)
-            description = view.findViewById(R.id.user_doubt_description)
+            description = view.findViewById(R.id.author_answer_description)
             ivDp = view.findViewById(R.id.iv_dp)
         }
     }
