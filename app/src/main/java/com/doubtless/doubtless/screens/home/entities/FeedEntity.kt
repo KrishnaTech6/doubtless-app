@@ -12,7 +12,6 @@ data class FeedEntity(
         const val TYPE_DOUBT = 1
         const val TYPE_SEARCH_RESULT = 2
         const val TYPE_USER_PROFILE = 3
-
-
+        const val TYPE_CREATE_POLL = 5
     }
 }
