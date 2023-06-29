@@ -109,7 +109,7 @@ class DashboardFragment : Fragment() {
 
                 override fun onCreatePollClicked() {}
 
-                override fun onPollOptionClicked(position: Int) {}
+                override fun onPollOptionClicked(position: Int, option: String) {}
             })
         }
 

@@ -70,10 +70,10 @@ class SearchFragment : Fragment() {
 
                     override fun onSubmitFeedbackClicked() {}
 
-                    override fun onDeleteAccountClicked() {}
-                    override fun onCreatePollClicked() {}
-                    override fun onPollOptionClicked(position: Int) {}
-                })
+                        override fun onDeleteAccountClicked() {}
+                        override fun onCreatePollClicked() {}
+                        override fun onPollOptionClicked(position: Int) {}
+                    })
         }
 
         binding.rvSearchResults.adapter = adapter
