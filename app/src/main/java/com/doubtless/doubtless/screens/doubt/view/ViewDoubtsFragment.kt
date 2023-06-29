@@ -130,7 +130,7 @@ class ViewDoubtsFragment : Fragment() {
                     navigator.moveToCreatePollFragment()
                 }
 
-                override fun onPollOptionClicked(position: Int) {
+                override fun onPollOptionClicked(position: Int, option: String) {
 
                 }
 
