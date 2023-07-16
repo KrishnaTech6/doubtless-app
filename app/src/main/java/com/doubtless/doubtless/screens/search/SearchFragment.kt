@@ -47,7 +47,7 @@ class SearchFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View {
         _binding = FragmentSearchBinding.inflate(inflater)
 
@@ -70,10 +70,13 @@ class SearchFragment : Fragment() {
 
                     override fun onSubmitFeedbackClicked() {}
 
-                        override fun onDeleteAccountClicked() {}
-                        override fun onCreatePollClicked() {}
-                        override fun onPollOptionClicked(position: Int) {}
-                    })
+                    override fun onDeleteAccountClicked() {}
+
+                    override fun onCreatePollClicked() {}
+
+                    override fun onPollOptionClicked(position: Int, option: String) {}
+
+                })
         }
 
         binding.rvSearchResults.adapter = adapter
